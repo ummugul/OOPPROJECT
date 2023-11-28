@@ -1,0 +1,36 @@
+Program çalışınca bu soruyla başlar
+
+Hangi işlemi yapmak istersiniz? 
+
+ 
+1. yeni sınıf açma 
+
+  *kullanıcıdan olusturmak istediği sınıfın ismi alınır o isimle sqlite3 database'inde bir tablo açılır
+     *tabloda name, surname ve id columnları ile kayıtlar alınır
+  *insertle öğrenci kaydı al input fonksıyonu kullanılarak her öğrenci tek tek  
+  
+tablo oluşturulduktan sonra tekrar ana menü sorularını sor
+ 
+2.var olan sınıf üzerinde değişiklikler ve görüntüleme :
+
+   sınıf isimleri sıralanır
+   
+  *hangi sınıf üzerinde işlem yapmak istersiniz? sorusuyla sınıf seçilir
+  *bu sınıfta hangi işlemi yapmak istersiniz ? sorusu ile üç işlem seçeneği sunulur
+
+       1. yeni öğrenci ekleme -> 
+       2. öğrenci silme->
+       3. öğrenci kaydı güncelleme->
+          *öğrencinin hangi verisini değiştirmek istersiniz?
+            1.name
+            2.surname
+            3.id
+      4. Seçili öğrenciyi görüntüleme
+ 
+      5. sınıftaki öğrencilerin tümünü görüntüleme
+       
+
+tekrar ana menüye dönülür
+            
+
+  
